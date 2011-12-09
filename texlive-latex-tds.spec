@@ -1,11 +1,11 @@
-# revision 24252
+# revision 24752
 # category Package
 # catalog-ctan /macros/latex/contrib/latex-tds
-# catalog-date 2011-10-09 16:42:04 +0200
+# catalog-date 2011-11-17 00:42:26 +0100
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-latex-tds
-Version:	20111009
+Version:	20111117
 Release:	1
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-tds.source.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 This bundle provides a set of zip file modules containing TDS-
@@ -39,6 +37,7 @@ the same service for Knuth's software distribution.
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsldoc.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/changes.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/encguide.tex.diff
+%doc %{_texmfdistdir}/source/latex/latex-tds/patch/hebrew.fdd.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/lb2.err.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/logmac.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/source2e.tex.diff

@@ -73,7 +73,6 @@ the same service for Knuth's software distribution.
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/tdsguide.cfg
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/tools-overview.cls
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/tools.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -84,5 +83,3 @@ the same service for Knuth's software distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

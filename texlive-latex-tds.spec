@@ -1,12 +1,12 @@
-# revision 24752
+# revision 26390
 # category Package
 # catalog-ctan /macros/latex/contrib/latex-tds
-# catalog-date 2011-11-17 00:42:26 +0100
+# catalog-date 2012-05-14 12:19:39 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-latex-tds
-Version:	20111117
-Release:	2
+Version:	20120514
+Release:	1
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-tds
@@ -28,6 +28,7 @@ the same service for Knuth's software distribution.
 #-----------------------------------------------------------------------
 %files
 #- source
+%doc %{_texmfdistdir}/source/latex/latex-tds/README
 %doc %{_texmfdistdir}/source/latex/latex-tds/build.pl
 %doc %{_texmfdistdir}/source/latex/latex-tds/lib/adjust_checksum.pl
 %doc %{_texmfdistdir}/source/latex/latex-tds/lib/ziptimetree.pl
@@ -46,7 +47,6 @@ the same service for Knuth's software distribution.
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/tripman.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/utf8ienc.dtx.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/webman.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/readme.txt
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/ams.drv
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/babel.tex
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/doc_lppl.tex

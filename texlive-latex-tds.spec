@@ -83,3 +83,25 @@ the same service for Knuth's software distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120514-1
++ Revision: 812341
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111117-2
++ Revision: 753202
+- Rebuild to reduce used resources
+
+* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111117-1
++ Revision: 739800
+- texlive-latex-tds
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111009-1
++ Revision: 718828
+- texlive-latex-tds
+- texlive-latex-tds
+- texlive-latex-tds
+- texlive-latex-tds
+

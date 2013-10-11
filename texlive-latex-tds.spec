@@ -1,18 +1,19 @@
-# revision 26390
+# revision 29325
 # category Package
 # catalog-ctan /macros/latex/contrib/latex-tds
-# catalog-date 2012-05-14 12:19:39 +0200
-# catalog-license lppl
+# catalog-date 2013-03-10 15:09:27 +0100
+# catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-latex-tds
-Version:	20120514
+Version:	20130310
 Release:	1
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-tds
-License:	LPPL
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-tds.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-tds.source.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-tds.doc.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-tds.source.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,19 +28,25 @@ the same service for Knuth's software distribution.
 
 #-----------------------------------------------------------------------
 %files
+%doc %{_texmfdistdir}/doc/latex/latex-tds/README
+%doc %{_texmfdistdir}/doc/latex/latex-tds/README.html
+%doc %{_texmfdistdir}/doc/latex/latex-tds/README.pdf
 #- source
-%doc %{_texmfdistdir}/source/latex/latex-tds/README
+%doc %{_texmfdistdir}/source/latex/latex-tds/README-docinfo.html
+%doc %{_texmfdistdir}/source/latex/latex-tds/README.asciidoc
 %doc %{_texmfdistdir}/source/latex/latex-tds/build.pl
 %doc %{_texmfdistdir}/source/latex/latex-tds/lib/adjust_checksum.pl
 %doc %{_texmfdistdir}/source/latex/latex-tds/lib/ziptimetree.pl
-%doc %{_texmfdistdir}/source/latex/latex-tds/license/lppl.txt
+%doc %{_texmfdistdir}/source/latex/latex-tds/license/adjust_checksum/lppl.txt
+%doc %{_texmfdistdir}/source/latex/latex-tds/license/latex-tds/lppl.txt
 %doc %{_texmfdistdir}/source/latex/latex-tds/license/ziptimetree/lgpl.txt
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsclass.dtx.diff
+%doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsfndoc.def.diff
+%doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsfndoc.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsldoc.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/changes.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/encguide.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/hebrew.fdd.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/lb2.err.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/logmac.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/source2e.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/tlc2.err.diff
@@ -76,32 +83,10 @@ the same service for Knuth's software distribution.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%setup -c -a0 -a1 -a2
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120514-1
-+ Revision: 812341
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111117-2
-+ Revision: 753202
-- Rebuild to reduce used resources
-
-* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111117-1
-+ Revision: 739800
-- texlive-latex-tds
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111009-1
-+ Revision: 718828
-- texlive-latex-tds
-- texlive-latex-tds
-- texlive-latex-tds
-- texlive-latex-tds
-
+cp -fpar doc source %{buildroot}%{_texmfdistdir}

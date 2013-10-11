@@ -1,3 +1,4 @@
 sources:
-  "latex-tds.source.tar.xz": 5a2c1be8b101c4994041e3a7f3e38daaac39478d
-  "latex-tds.tar.xz": 024f8d89b6f96a21186fe2109cd393a146cfff85
+  latex-tds.doc.tar.xz: 4031177550610b20f387d6330c3bf4c9448a73a8
+  latex-tds.source.tar.xz: d74516afaddd0b78fe983171fed8389a6ad14ea8
+  latex-tds.tar.xz: c21527fda5f3a3f41b09f20c253694074d40ceb1

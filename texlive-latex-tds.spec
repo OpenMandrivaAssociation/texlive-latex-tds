@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-latex-tds
 Version:	20130310
-Release:	4
+Release:	5
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-tds

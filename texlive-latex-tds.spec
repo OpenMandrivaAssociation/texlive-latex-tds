@@ -1,12 +1,12 @@
-# revision 29325
+# revision 32898
 # category Package
 # catalog-ctan /macros/latex/contrib/latex-tds
-# catalog-date 2013-03-10 15:09:27 +0100
+# catalog-date 2014-02-04 00:38:24 +0100
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-latex-tds
-Version:	20130310
-Release:	6
+Version:	20140204
+Release:	1
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-tds
@@ -46,7 +46,7 @@ the same service for Knuth's software distribution.
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsldoc.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/changes.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/encguide.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/hebrew.fdd.diff
+%doc %{_texmfdistdir}/source/latex/latex-tds/patch/errorlog.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/logmac.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/source2e.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/tlc2.err.diff
@@ -55,7 +55,6 @@ the same service for Knuth's software distribution.
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/utf8ienc.dtx.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/patch/webman.tex.diff
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/ams.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/babel.tex
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/doc_lppl.tex
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/docstrip.cfg
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/errata.all
@@ -63,8 +62,8 @@ the same service for Knuth's software distribution.
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/errata.drv
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/errorlog.drv
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/etex_man.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/greek-usage.tex
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/hyperref.cfg
+%doc %{_texmfdistdir}/source/latex/latex-tds/tex/knuth-outline.tex
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/knuth.drv
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltnews.cfg
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltnews.tex

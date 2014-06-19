@@ -1,12 +1,12 @@
-# revision 32898
+# revision 34068
 # category Package
 # catalog-ctan /macros/latex/contrib/latex-tds
-# catalog-date 2014-02-04 00:38:24 +0100
+# catalog-date 2014-05-16 08:01:22 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-latex-tds
-Version:	20140204
-Release:	2
+Version:	20140516
+Release:	1
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-tds
@@ -62,6 +62,7 @@ the same service for Knuth's software distribution.
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/errata.drv
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/errorlog.drv
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/etex_man.drv
+%doc %{_texmfdistdir}/source/latex/latex-tds/tex/fix-expl3-lua.ini
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/hyperref.cfg
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/knuth-outline.tex
 %doc %{_texmfdistdir}/source/latex/latex-tds/tex/knuth.drv

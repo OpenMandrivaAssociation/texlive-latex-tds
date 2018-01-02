@@ -1,12 +1,6 @@
-# revision 34068
-# category Package
-# catalog-ctan /macros/latex/contrib/latex-tds
-# catalog-date 2014-05-16 08:01:22 +0200
-# catalog-license lppl1.3
-# catalog-version undef
 Name:		texlive-latex-tds
-Version:	20140516
-Release:	4
+Version:	20170414
+Release:	1
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-tds
@@ -28,58 +22,9 @@ the same service for Knuth's software distribution.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/latex-tds/README
-%doc %{_texmfdistdir}/doc/latex/latex-tds/README.html
-%doc %{_texmfdistdir}/doc/latex/latex-tds/README.pdf
+%doc %{_texmfdistdir}/doc/latex/latex-tds
 #- source
-%doc %{_texmfdistdir}/source/latex/latex-tds/README-docinfo.html
-%doc %{_texmfdistdir}/source/latex/latex-tds/README.asciidoc
-%doc %{_texmfdistdir}/source/latex/latex-tds/build.pl
-%doc %{_texmfdistdir}/source/latex/latex-tds/lib/adjust_checksum.pl
-%doc %{_texmfdistdir}/source/latex/latex-tds/lib/ziptimetree.pl
-%doc %{_texmfdistdir}/source/latex/latex-tds/license/adjust_checksum/lppl.txt
-%doc %{_texmfdistdir}/source/latex/latex-tds/license/latex-tds/lppl.txt
-%doc %{_texmfdistdir}/source/latex/latex-tds/license/ziptimetree/lgpl.txt
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsclass.dtx.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsfndoc.def.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsfndoc.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/amsldoc.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/changes.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/encguide.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/errorlog.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/logmac.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/source2e.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/tlc2.err.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/trapman.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/tripman.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/utf8ienc.dtx.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/patch/webman.tex.diff
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/ams.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/doc_lppl.tex
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/docstrip.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/errata.all
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/errata.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/errata.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/errorlog.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/etex_man.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/fix-expl3-lua.ini
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/hyperref.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/knuth-outline.tex
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/knuth.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltnews.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltnews.tex
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltugboat.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltxcheck.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltxdoc.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/ltxguide.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/lualatex-tds.ini
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/lualatex-tds2.ini
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/manual.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/pdflatex-tds.ini
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/psnfss2e.drv
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/tdsguide.cfg
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/tools-overview.cls
-%doc %{_texmfdistdir}/source/latex/latex-tds/tex/tools.tex
+%doc %{_texmfdistdir}/source/latex/latex-tds
 
 #-----------------------------------------------------------------------
 %prep

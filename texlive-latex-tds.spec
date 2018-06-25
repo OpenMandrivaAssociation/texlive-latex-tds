@@ -1,5 +1,5 @@
 Name:		texlive-latex-tds
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing

@@ -1,6 +1,6 @@
 Name:		texlive-latex-tds
 Version:	20190228
-Release:	1
+Release:	2
 Summary:	A structured copy of the LaTeX distribution
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-tds
